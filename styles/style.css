@@ -15,6 +15,110 @@
 */
 
 .page {
-  min-inline-size: 320px;
+  min-inline-size: 375px;
+  max-inline-size: 700px;
   min-block-size: 100dvb;
+  display: grid;
+  justify-content: center;
+  gap: 50px;
+  font-family: var(--main-font), sans-serif;
+  background: var(--bg-image), var(--bg-gradient);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  margin-block-start: 100px;
+  margin-block-end: 100px;
+}
+
+.header {
+  display: inline-grid;
+  gap: 25px;
+  margin-block-end: 50px;
+  text-transform: uppercase;
+  background: var(--bg-color);
+  border: 2px solid var(--main-color);
+}
+
+.header__logo-group {
+  display: grid;
+  font-family: var(--accent-font), sans-serif;
+  margin-block-start: 120px;
+  text-align: center;
+}
+
+.header__logo-title {
+  font-size: 49px;
+}
+
+.header__logo-subtitle {
+  font-size: 14px;
+}
+
+.theme-menu {
+  display: grid;
+  justify-content: center;
+}
+
+.button {
+  font-family: var(--accent-font), sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.theme-menu__button {
+  border: none;
+  text-transform: uppercase;
+}
+
+.theme-menu__button:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.theme-menu__button:disabled::before {
+  content: '▶';
+}
+
+.card-list {
+  display: grid;
+  max-inline-size: 372px;
+  gap: 50px;
+}
+
+.card {
+  background: var(--bg-color);
+  border: 2px solid var(--main-color);
+}
+
+.card__title {
+  font-variation-settings: 'wght' var(--card-title-weight);
+  padding: 5px 10px;
+}
+
+.card__picture {
+  max-inline-size: 100vw;
+}
+
+.card__text {
+  display: grid;
+  gap: 27px;
+  margin: 25px;
+  font-variation-settings: 'wght' var(--card-text-weight);
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+}
+
+.footer__save-button {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
 }
