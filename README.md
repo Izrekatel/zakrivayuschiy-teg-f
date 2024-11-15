@@ -1,10 +1,10 @@
-[![Tests](https://github.com/Izrekatel/slozhno-sosredotochitsya/actions/workflows/tests.yml/badge.svg)](https://github.com/Izrekatel/slozhno-sosredotochitsya/actions/workflows/tests.yml)
+[![Tests 7-8](https://github.com/Izrekatel/zakrivayuschiy-teg-f/actions/workflows/tests.yml/badge.svg)](https://github.com/Izrekatel/zakrivayuschiy-teg-f/actions/workflows/tests.yml)
 
 # Адрес репозитория
 
-<https://github.com/Izrekatel/slozhno-sosredotochitsya.git>
+<https://github.com/Izrekatel/zakrivayuschiy-teg-f.git>
 
 
-### Проект "Сложно сосредоточиться".
+### Проект "Закрывающий тэг F".
 
-По предоставленному макету создана HTML страница. Стили описаны в src/blocks/*.css
+По предоставленному макету создана HTML страница. Стили описаны в styles/*.css
