@@ -9,17 +9,18 @@
   --card-title-weight: 785;
   --card-text-weight: 485;
   --main-color: #00cc14;
-  --bg-color: #000000;
+  --bg-color: #000;
   --bg-image: url(../images/background-dark.png);
   --bg-gradient: linear-gradient(180deg, #007f0c 0%, #004306 100%);
 }
 
 @media (prefers-color-scheme: dark) {
+
   :root {
     --card-title-weight: 785;
     --card-text-weight: 485;
     --main-color: #00cc14;
-    --bg-color: #000000;
+    --bg-color: #000;
     --bg-image: url(../images/background-dark.png);
     --bg-gradient: linear-gradient(180deg, #007f0c 0%, #004306 100%);
   }
@@ -28,18 +29,19 @@
 :root.theme-light {
   --card-title-weight: 700;
   --card-text-weight: 400;
-  --main-color: #000000;
-  --bg-color: #ffffff;
+  --main-color: #000;
+  --bg-color: #fff;
   --bg-image: url(../images/background.png);
   --bg-gradient: linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --card-title-weight: 700;
     --card-text-weight: 400;
-    --main-color: #000000;
-    --bg-color: #ffffff;
+    --main-color: #000;
+    --bg-color: #fff;
     --bg-image: url(../images/background.png);
     --bg-gradient: linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
   }
