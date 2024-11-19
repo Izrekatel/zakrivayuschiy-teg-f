@@ -7,10 +7,10 @@
   --bg-gradient-color-1: #007f0c;
   --bg-gradient-color-2: #004306;
   --bg-gradient-start-from: 0;
+  --button-text-color: var(--main-color);
 }
 
 @media (prefers-color-scheme: dark) {
-
   :root {
     --title-font-weight: 785;
     --text-font-weight: 485;
@@ -20,6 +20,7 @@
     --bg-gradient-color-1: #007f0c;
     --bg-gradient-color-2: #004306;
     --bg-gradient-start-from: 0;
+    --button-text-color: var(--main-color);
   }
 }
 
@@ -32,10 +33,10 @@
   --bg-gradient-color-1: #e7e7e7;
   --bg-gradient-color-2: #1a1a1a;
   --bg-gradient-start-from: 0.01%;
+  --button-text-color: var(--bg-color);
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --title-font-weight: 700;
     --text-font-weight: 400;
@@ -45,13 +46,6 @@
     --bg-gradient-color-1: #e7e7e7;
     --bg-gradient-color-2: #1a1a1a;
     --bg-gradient-start-from: 0.01%;
+    --button-text-color: var(--bg-color);
   }
-}
-
-.theme-dark .button {
-  color: var(--main-color);
-}
-
-.theme-auto .button {
-  color: var(--main-color);
 }

@@ -1,5 +1,4 @@
 @keyframes arrow {
-
   from {
     margin-left: -20px;
   }
@@ -10,7 +9,6 @@
 }
 
 @keyframes heart-scale {
-
   from {
     transform-origin: center;
     scale: 1;
@@ -23,7 +21,6 @@
 }
 
 @keyframes sparks {
-
   from {
     opacity: 0;
   }
