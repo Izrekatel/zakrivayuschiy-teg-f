@@ -169,6 +169,18 @@
   z-index: 1;
 }
 
+@supports (
+  (text-stroke: 1px var(--bg-color)) or
+    (-webkit-text-stroke: 1px var(--bg-color))
+) {
+
+  .watermark {
+    -webkit-text-stroke: 1px var(--bg-color);
+    text-stroke: 1px var(--bg-color);
+    text-shadow: none;
+  }
+}
+
 .card__text-container {
   margin: 25px;
   padding-block-start: 2px;
