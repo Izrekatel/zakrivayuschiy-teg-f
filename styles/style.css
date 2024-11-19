@@ -273,7 +273,6 @@
 }
 
 .button {
-  padding: 0;
   background-color: transparent;
   border: var(--border);
   box-shadow: none;
